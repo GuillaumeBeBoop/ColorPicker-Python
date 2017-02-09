@@ -12,7 +12,6 @@ Note :  you need a bloc note, sublimeText, notepad++, Python IDLE or other to op
 Feel free to contact me if you have any troubles : 
 On twitter : @GuillaumeBeboop
 
-This app is under Creative Commons BY SA NC license.
-This means, you can use, share alike but not make a commecial use
+This app is under GNU GENERAL PUBLIC LICENSE Version 3
 
 Thx for reading this, Have a great day ! :)
