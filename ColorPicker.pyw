@@ -22,7 +22,6 @@ user32 = ctypes.windll.user32
 width = user32.GetSystemMetrics(0)
 height = user32.GetSystemMetrics(1)
 
-
 window.fill(pygame.Color("black"))
 Text = title.render("Rule the world and press L", 1, (255,255,255))
 window.blit(Text, (25, 10))
@@ -33,10 +32,11 @@ Licence = credit.render("-- Licence : Creative Commons BY NC SA--", 1, (255,255,
 #Random text
 randomtext = ["Keep Calm and press L","FUSH ROH DDD...PRESS L","We can have some fun","Damn, you found THE color","I'm not even tired","Feel free to use it","Share the colors","Hey, You're still there ?","Python over the world","French tech... uhg wait ?","Rule the world and press L","Press W. Just kidding, it's L","JUST DO IT. PRESS L","BLABLA L BLA BLA BLA","You're awesome <3 - Still L","Le meilleur color picker","In python we code - Still L","Is it your favourite color?"]
 
-px=ImageGrab.grab().load()
-pixel = 1 
+
+pixel = 1
 pygame.display.update()
 while pixel :
+    px=ImageGrab.grab().load()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pixel =0         
