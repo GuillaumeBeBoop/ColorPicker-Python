@@ -11,6 +11,8 @@ pygame.init()
 window = pygame.display.set_mode((300,200))
 pygame.display.set_caption('Color Picker V1 - Python')
 clock = pygame.time.Clock()
+
+#Set the fonts
 title = pygame.font.SysFont("comicsansms", 18,True,False)
 text = pygame.font.SysFont("comicsansms", 15,True,False)
 credit = pygame.font.SysFont("arial", 10,True,False)
@@ -19,8 +21,6 @@ credit = pygame.font.SysFont("arial", 10,True,False)
 user32 = ctypes.windll.user32
 width = user32.GetSystemMetrics(0)
 height = user32.GetSystemMetrics(1)
-
-#Label(l, text="#%02x%02x%02x" % (red, green, blue)).pack()
 
 window.fill(pygame.Color("black"))
 Text = title.render("Rule the world and press L", 1, (255,255,255))
